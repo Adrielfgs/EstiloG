@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="height=device-height, initial-scale=1.0">
+
+    <title>BarberSHOP</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="/scripts/login.js"></script>
+</head>
+
+<body>
+    <div class="back">
+        <div class="container">
+            <div class=Fundo>
+                <div class="box">
+                    <img src="/img/logo.png" alt="">
+                </div>
+                <div class="box2">
+                    <button class="user" type="submit" onclick="user()">Cliente</button>
+                    <button class="adm" type="submit" onclick="adm()">Administrador</button>
+                </div>
+                <div class="base">
+                    <input type="number" placeholder="ID" id="id" maxlength="35" disabled="true">
+                    <input type="password" placeholder="Senha" id="password" maxlength="11" disabled="true">
+                </div>
+                <div class=" box3">
+                    <input type="text" placeholder="Nome" id="name" maxlength="35" disabled="true">
+                    <input type="tel" placeholder="Telefone" id="phone" maxlength="11" disabled="true">
+                </div>
+                <div class="login">
+                    <button onclick="login()" disabled="true" id="log">Entrar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
